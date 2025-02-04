@@ -1,0 +1,8 @@
+body {
+    background-color:#090909;
+    background-image: url(../imgs/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: center;
+    height: 100vh;
+}

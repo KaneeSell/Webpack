@@ -1,0 +1,27 @@
+{
+  "name": "pilot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack-dev-server": "5.2.0",
+    "file-loader": "6.2.0",
+    "cross-env": "7.0.3",
+    "css-minimizer-webpack-plugin": "7.0.0",
+    "terser-webpack-plugin": "5.3.11",
+    "node-sass" : "9.0.0",
+    "sass-loader": "16.0.4",
+    "mini-css-extract-plugin": "2.9.2",
+    "css-loader": "7.1.2",
+    "style-loader": "4.0.0",
+    "webpack": "5.97.1",
+    "webpack-cli": "6.0.1"
+  }
+}
